@@ -47,42 +47,20 @@ header{
 
 .bg-transparent{
     font-family: oswald;
-    border: 1px solid #000000;
-}
-
-/* .contenue-1 */
-/* #contenue-1 h4{
-    color: #000000;
-    font-size: smaller;
-}
-#contenue-1{
-    border: 1px solid #000000;
-    display: flex;
-    justify-content: center;
-}
-#contenue-1 p{
-    font-size: x-small;
-}
-#contenue-1 img{
-    width: 30%;
 }
 
 
 
-
-
-.contenue-2{
-    background-color: yellow;
+.col-12 p{
+    font-family: oswald;
+    font-size: small;
 }
-.contenue-2 img{
-    height: 50%;
-    width: 50%;
+.col-12 h4{
+    font-family: courgette;
+    font-size: small;
 }
 
-.contenue-3{
-    background-color: green;
-}
-.contenue-3 img{
-    height: 50%;
-    width: 50%;
+/* .col-12 img{
+   
 } */
+
