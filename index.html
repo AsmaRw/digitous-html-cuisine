@@ -11,115 +11,238 @@
 </head>
 
 <body>
-  <div id="content">
-    <nav class="navbar navbar-expand-lg navbar-transparent">
+
+  <div class="background-cuizine">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Cui'zine</a>
-        <span class="navbar-toggler-icon"></span>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">Acceuil<span class="sr-only"></span></a>
-            <a class="text-white-50 nav-link">Equipe</a>
-            <a class="text-white-50 nav-link">Blog</a>
-            <a class="text-white-50 nav-link">Contact</a>
-          </div>
+
+        <h2>
+          <a class="navbar-brand" href="#">Cui'zine</a>
+        </h2>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="equipe.html">Equipe</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+
         </div>
+
       </div>
+
     </nav>
+
     <header class="container-fluid">
-      <div class="row">
-        <div class="col-4 py-4">
-          <div class="block1">
-          </div>
+
+      <div class="row header-cuizine-row align-items-center">
+
+        <div class="col-8 offset-2 text-center">
+
+          <img class="my-4" src="./img/logo_square_white.png" alt="Logo Cui'zine">
+          <h1 class="display-3 text-white">Cui'zine</h1>
+          <h2 class="display-5 text-white">Le mag cuisine</h2>
+
         </div>
-        <div class="col-4">
-          <div class="block2 py-4 mt-5">
-            <img src="./img/logo_square_white.png" class="mx-auto d-block" alt="logo_square_white">
-            <h1 class="cole-4 offset-4 pt-4">Cui'Zine</h1>
-            <h2 class="col-9 offset-3">Le mag Cuisine</h2>
-          </div>
-        </div>
-        <div class="col-4 py-4">
-          <div class="block3">
-          </div>
-        </div>
+
       </div>
+
     </header>
+
+
   </div>
 
-  <div class="container">
-    <div class="offset-5 col-3 p-3 mb-2 bg-transparent text-dark">Derniers Articles</div>
+  <main class="container-lg section-articles my-5">
+
+    <h2 class="text-center display-4 mb-5">Derniers articles</h2>
 
     <div class="row">
-      <div class="col-12 col-lg-3">
-        <img src="img/articles/suzette/suzette-small.jpg" class="img-fluid" alt="suzette-small">
-      </div>
-      <div class="col-12 col-lg-9">
-        <div>
-          <h4>chez Suzette la nouvelle crepery qui fait parler d'elle</h4>
-          <p>La franchise "chez Suzette" qui fait un carton chez les breton ouvre
-            <br>
-            son premier restaurent a Paris
-            dans le cartier Latin. Antonin de
-            <br>
-            Cui'zine a teste pour vous les saveurs sucres, sales au froment ou au sarazin!
-          </p>
+
+      <div class="col-12 col-lg-10">
+
+        <article class="row mb-3">
+
+          <div class="col-12 col-md-4 mb-3">
+
+            <img class="img-fluid" src="./img/articles/suzette/suzette-small.jpg" alt="Chez suzette">
+
+          </div>
+
+          <div class="col-12 col-md-8">
+
+            <h2 class="">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h2>
+            <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant
+              à Paris
+              dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au
+              froment
+              ou au sarrazin!</p>
+
+          </div>
+
+        </article>
+
+        <article class="row mb-3">
+
+          <div class="col-12 col-md-4 mb-3">
+
+            <img class="img-fluid" src="./img/articles/metro/metro-small.jpg" alt="Chez suzette">
+
+          </div>
+
+          <div class="col-12 col-md-8">
+
+            <h2 class="">Le Métro dessert</h2>
+            <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé
+              de
+              réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir
+              absolument,
+              mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis
+            </p>
+
+          </div>
+
+        </article>
+
+        <article class="row mb-3">
+
+          <div class="col-12 col-md-4 mb-3">
+
+            <img class="img-fluid" src="./img/articles/vitaly/vitaly-small.jpg" alt="Chez suzette">
+
+          </div>
+
+          <div class="col-12 col-md-8">
+
+            <h2 class="">Vitaly, le végan italien</h2>
+            <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de
+              l'Italie
+              à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
+
+          </div>
+
+        </article>
+
+        <div class="row">
+
+          <div class="col-6">
+
+            <a href="#">&laquo; Voir les articles précédents</a>
+
+          </div>
+
         </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-12 col-lg-3">
-        <img src="img/articles/metro/metro-small.jpg" class="img-fluid" alt="metro-small">
       </div>
-      <div class="col-12 col-lg-9">
+
+      <aside class="col-lg-2 d-none d-lg-block">
+
         <div>
-          <h4>chez Suzette la nouvelle crepery qui fait parler d'elle</h4>
-          <p>La franchise "chez Suzette" qui fait un carton chez les breton ouvre
-            <br>
-            son premier restaurent a Paris
-            dans le cartier Latin. Antonin de
-            <br>
-            Cui'zine a teste pour vous les saveurs sucres, sales au froment ou au sarazin!
-          </p>
-        </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-12 col-lg-3">
-        <img src="img/articles/vitaly/vitaly-small.jpg" class="img-fluid" alt="vitaly-small">
-      </div>
-      <div class="col-12 col-lg-9">
+          <h6>Recherche</h6>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Recherche">
+            <button type="button" class="btn btn-outline-dark">Ok</button>
+          </div>
+
+        </div>
+
         <div>
-          <h4>chez Suzette la nouvelle crepery qui fait parler d'elle</h4>
-          <p>La franchise "chez Suzette" qui fait un carton chez les breton ouvre
-            <br>
-            son premier restaurent a Paris
-            dans le cartier Latin. Antonin de
-            <br>
-            Cui'zine a teste pour vous les saveurs sucres, sales au froment ou au sarazin!
-          </p>
+
+          <h6>Newsletter</h6>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Recherche">
+            <button type="button" class="btn btn-outline-dark">S'inscrire</button>
+          </div>
+
         </div>
-      </div>
+
+        <h6>Partager</h6>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-twitter"></i>
+      </aside>
+
     </div>
 
-    <div class="col-lg-12 d-done d-lg-block">
-      <div class="research courgette">
-        <label for= "exampleInputEmail1" class="courgette">research</label>
-        <input type="email" class="form-control oswald" id="recherche" aria-describedby="recherche" placeholder="recherche...">
-        <button type="submit" class="btn btn-drak oswald col-button">ok</button>
+  </main>
+
+  <footer class="bg-dark text-white py-5">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-12 col-lg-4">
+
+          <h3>Catégories</h3>
+          <ul>
+            <li><a href="#">Revues</a></li>
+            <li><a href="#">Recettes</a></li>
+            <li><a href="#">Découvertes</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-12 col-lg-4">
+
+          <h3>Archives</h3>
+          <ul>
+            <li><a href="#">2019</a></li>
+            <li><a href="#">2018</a></li>
+            <li><a href="#">2017</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-6 col-lg-3">
+
+          <h6>Newsletter</h6>
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-outline-light" type="button" id="button-addon2">S'inscrire</button>
+          </div>
+
+          <h6>Partager</h6>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-twitter"></i>
+
+        </div>
+
       </div>
+
     </div>
-  </div>
+
+  </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.js"></script>
 </body>
+
 
 </html>
