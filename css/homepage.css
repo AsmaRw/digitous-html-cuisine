@@ -1,6 +1,11 @@
 /* nav header */
-#content{
+#background-cuizine{
     background-image: url(../img/header.jpg);
+    height: 600px;
+    background-position: center;
+}
+#background-equipe{
+    background-image: url(/img/team/team.jpg);
     height: 600px;
     background-position: center;
 }
