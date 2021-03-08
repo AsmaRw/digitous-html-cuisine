@@ -1,6 +1,4 @@
-body{
-    margin: 0;
-}
+/* nav header */
 .background-team {
     background-image: url('../img/team/team.jpg');
     background-position: center;
@@ -23,4 +21,25 @@ nav, header {
 
 .header-team-row img {
     width: 80px;
+}
+
+/* contenus */
+.team{
+    width: 100%;
+}
+.team img{
+    border-radius: 50%;
+    min-width: 10em;
+    max-width: 30em;
+}
+
+.team h2{
+    font-size: 40px;
+}
+.team span{
+    font-size: 20px;
+}
+
+aside button {
+    width: 100%;
 }
